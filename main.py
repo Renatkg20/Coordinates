@@ -1,10 +1,12 @@
-n = int(input())
+
+#user input the numbers of loops
+n = int(input("Pls input number: "))
 
 l0 = []
 l1 = []
 total = []
 for i in range(n):
-    n1 = input()
+    n1 = input("Pls input coordinates: ")
     t = n1.split(" ")
     l0.append(int(t[0]))
     l1.append(int(t[1]))
